@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    text-align: center;
+}
+tr,td,th{
+    border: 1px solid;
+    padding: 10px;
+}
+thead,tbody{
+    border: 1px;
+}
+
+#actionRow{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,19 @@
+<!-- create.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Operation Example</title>
+</head>
+<body>
+  <h1>Create New Item</h1>
+  <form action="/edit/<%=data.id%>" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" value="<%=data.name%>" name="name" required>
+    <label for="name">Email:</label>
+    <input type="text" id="email" name="email" value="<%=data.email%>" required>
+    <button type="submit">Create</button>
+  </form>
+</body>
+</html>
